@@ -46,7 +46,7 @@ Sales data is recorded in multiple currencies and converted to USD using exchang
 
 - `data/` – Raw CSV files for all tables  
 - `sql/data_cleaning.sql` – Scripts for fixing date formats and data issues  
-- `sql/main_analysis.sql` – SQL queries answering all business questions  
+- `sql/Global Retail Store Analysis` – SQL queries answering all business questions  
 - `screenshots/` – Query result images  
 - `README.md` – Project documentation  
 
@@ -54,5 +54,5 @@ Sales data is recorded in multiple currencies and converted to USD using exchang
 
 1. Import the CSV files into MySQL  
 2. Run `data_cleaning.sql` to fix date and currency issues  
-3. Run `main_analysis.sql` to generate business insights  
+3. Run `Global Retail Store Analysis.sql` to generate business insights  
 4. View query results in MySQL Workbench or using the screenshots provided  
